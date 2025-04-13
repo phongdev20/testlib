@@ -7,13 +7,14 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "clean_android": "cd android && ./gradlew clean"
   },
   "dependencies": {
     "react": "18.3.1",
     "react-native": "0.75.5",
     "react-native-fs": "^2.20.0",
-    "react-native-ftp-service": "^0.1.5"
+    "react-native-ftp-service": "^0.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
